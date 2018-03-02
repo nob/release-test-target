@@ -1,0 +1,18 @@
+#Binding A Singleton
+The singleton method binds a class or interface into the container that
+should only be resolved one time. Once a singleton binding is resolved,
+the same object instance will be returned on subsequent calls into the container:
+
+
+Master
+Master
+
+Binding Primitives
+Sometimes you may have a class that receives some injected classes,
+but also needs an injected primitive value such as an integer.
+You may easily use contextual binding to inject any value your class may need:
+
+AAAAA
+
+
+KKKKKKKKK
